@@ -1,0 +1,395 @@
+body {
+  background-color: lightslategray;
+}
+.header {
+  /* background-color: #023f79; */
+
+  background-color: #eb34d8;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.header_welcome {
+  cursor: pointer;
+}
+
+.right_top {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: whitesmoke 5px 0 5px 0;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.tworow {
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.tworow > label {
+  padding: 10px;
+  width: 250px;
+}
+label {
+  padding: 10px;
+  width: 250px;
+}
+input {
+  padding: 6px;
+}
+
+.buttons > button {
+  margin-right: 7px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.selectoption {
+  padding: 6px;
+}
+
+.sidedform {
+  display: flex;
+}
+.selectoption {
+  padding: 6px;
+}
+form {
+  display: flex;
+  background-color: #79d8d9;
+  /*background-color: #D0D4D9;*/
+  align-content: center;
+  width: 70%;
+  padding: 15px;
+
+  border-radius: 5px;
+}
+
+.butform {
+  display: flex;
+  background-color: #79d8d9;
+
+  background-color: #d0d4d9;
+  align-content: center;
+  width: 70%;
+  padding: 15px;
+
+  border-radius: 5px;
+}
+
+.selectoption {
+  padding: 6px;
+}
+.twothings {
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.body {
+  background-color: #fff;
+  margin: 15px;
+  display: flex;
+} */
+textarea:focus {
+  background-color: #03fcc2;
+  color: white;
+  font-size: 20px;
+  box-sizing: 10px;
+  width: 50%;
+  border-radius: 100px;
+  resize: both;
+  /*box-sizing: border-box;*/
+}
+input[type="text"]:focus {
+  background-color: #84ed6f;
+  color: white;
+  font-size: 20px;
+  box-sizing: 10px;
+  width: 50%;
+  border-radius: 100px;
+  resize: both;
+  /*box-sizing: border-box;*/
+}
+
+input[type="number"]:focus {
+  background-color: #03a5fc;
+  color: white;
+  font-size: 20px;
+  box-sizing: 10px;
+  width: 50%;
+  border-radius: 100px;
+  resize: both;
+  /*box-sizing: border-box;*/
+}
+
+input[type="date"]:focus {
+  background-color: #db03fc;
+  color: white;
+  font-size: 20px;
+  box-sizing: 10px;
+  width: 50%;
+  border-radius: 100px;
+  resize: both;
+  /*box-sizing: border-box;*/
+}
+
+.leftSidebar {
+  width: 15%;
+  color: #51facb;
+  margin-right: 16px;
+  flex: 20%;
+  background-color: #73a7f5;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-family: verdana;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.rightSidebar {
+  flex: 80%;
+  /*border: 2px whitesmoke solid;*/
+  border-radius: 5px;
+  /*background-color: #d0d4d9;*/
+}
+li:hover {
+  background-color: #43463e;
+  color: #fff;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: #43463e;
+  color: #fff;
+  cursor: pointer;
+}
+.menus {
+  width: 16%;
+  height: 50%;
+}
+
+/* positioning the form all*/
+
+.positionting {
+  width: 100%;
+  position: absolute;
+  bottom: 18%;
+  left: 15.4%;
+  flex: 20%;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+/*styling delete add clear buttons*/
+
+.greens {
+  background-color: green;
+}
+.blues {
+  background-color: blue;
+}
+.reds {
+  background-color: red;
+}
+
+/*input type*/
+
+input[type="select"] {
+  width: 100%;
+  height: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+input[type="Datetime"] {
+  /*width: 50%;*/
+  height: 5px;
+  padding: 5px;
+  color: red;
+}
+input[type="text"] {
+  /* width: 50%;*/
+  height: 5px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+input[type="number"] {
+  /* width: 50%;*/
+  height: 5px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+/* .sizing{
+  width: 20%;
+} */
+
+/* new stle responsive forms */
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+}
+.form-inline {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.items {
+  width: 100%;
+  height: 100%;
+  background-color: #03a5fc;
+  margin: 10%;
+  padding: 15%;
+  font-size: 1.5rem;
+}
+.sideone {
+  left: 10%;
+  position: absolute;
+  flex: 20%;
+}
+.sidethree {
+  right: 10%;
+  position: absolute;
+  flex: 20%;
+}
+.sidetwo {
+  right: 50%;
+  position: absolute;
+  flex: 20%;
+  background-color: #03a5fc;
+  margin: 1%;
+  padding: 1%;
+}
+
+/*search bar*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonss {
+  /* position: absolute; */
+  position: relative;
+  /* bottom: 20%; */
+  background-color: #51facb;
+  color: red;
+  /* right: 40%; */
+}
+.bg-primary {
+  background-color: #007bff !important;
+}
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: #0062cc !important;
+}

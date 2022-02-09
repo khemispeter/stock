@@ -1,0 +1,78 @@
+.body {
+  background-color: #fff;
+  margin: 15px;
+  display: flex;
+}
+.leftSidebar {
+  color: #51facb;
+  margin-right: 16px;
+  flex: 20%;
+  background-color: #73a7f5;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-family: verdana;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.rightSidebar {
+  flex: 80%;
+  border: 2px whitesmoke solid;
+  border-radius: 5px;
+  background-color: #d0d4d9;
+}
+li:hover {
+  background-color: #43463e;
+  color: #fff;
+  cursor: pointer;
+}
+.right_top {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: 5px 0 5px 0;
+}
+.second_top {
+  margin: 10px;
+  border-bottom: 2px whitesmoke solid;
+}
+.second_top > button {
+  border: none;
+  margin-right: 6px;
+  background: none;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+}
+.leftform {
+  display: flex;
+}
+.tworow {
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.tworow > label {
+  padding: 10px;
+  width: 250px;
+}
+input {
+  padding: 6px;
+}
+textarea {
+  margin-left: 4px;
+}
+.buttons > button {
+  margin-right: 7px;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.selectoption {
+  padding: 6px;
+}

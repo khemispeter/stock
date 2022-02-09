@@ -1,0 +1,82 @@
+.items {
+  background-color: bisque;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+
+.purchases {
+  background-color: darkgray;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.vendors {
+  background-color: forestgreen;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.sales {
+  background-color: peru;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.customers {
+  background-color: darkslategray;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.searchs {
+  background-color: darkmagenta;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.reports {
+  background-color: maroon;
+  text-decoration: none;
+  width: 50%;
+  height: 40%;
+}
+.header {
+  background-color: #eb34d8;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.header_welcome {
+  cursor: pointer;
+}
+.leftSidebar {
+  width: 15%;
+  color: #51facb;
+  margin-right: 16px;
+  flex: 20%;
+  background-color: #73a7f5;
+}
+/* .body {
+  background-color: #fff;
+  margin: 15px;
+  display: flex; 
+} */
+li:hover {
+  background-color: #43463e;
+  color: #fff;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  background-color: #43463e;
+  color: #fff;
+  cursor: pointer;
+}
